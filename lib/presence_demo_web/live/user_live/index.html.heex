@@ -1,0 +1,6 @@
+<h1>Listing Users</h1>
+<div>Me: <%= @user %></div>
+<h2>Present</h2>
+<%= for user <- @users do %>
+  <div ><%= user %> </div>
+<% end %>
